@@ -1,5 +1,5 @@
 FROM ruby:2.3.1-slim
-MAINTAINER arobson <arobson@gmail.com>
+MAINTAINER Lucro Engineering <dev@lucro.com>
 
 ENV DEV_PACKAGES="tzdata nodejs postgresql-server-dev-9.4 postgresql-client curl wkhtmltopdf"
 
