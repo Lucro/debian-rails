@@ -1,2 +1,6 @@
 ## debian-rails
-A custom version of ruby on rails pegged to rails 4.2.6 and ruby 2.3.1.
+Ruby image with rails app dependencies installed
+
+    docker build -t lucro/debian-rails .
+    export VERSION=<the ruby version in the base image>
+    docker push lucro/debian-rails:$VERSION
